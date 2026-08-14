@@ -45,11 +45,21 @@ class MLP(nn.Module):
         return self.fc2(torch.relu(self.fc1(x)))
 
 
-def make_data(p=P, train_frac=TRAIN_FRAC, seed=SEED):
-    """Todos los pares (a, b), barajados con semilla fija y partidos."""
+def make_data(p=P, train_frac=TRAIN_FRAC, seed=SEED, shuffle_labels=False):
+    """Todos los pares (a, b), barajados con semilla fija y partidos.
+
+    Con shuffle_labels se permutan las etiquetas sobre el conjunto completo
+    antes de partir, asi que cada par (a, b) conserva una etiqueta fija pero
+    la relacion con la suma modular queda destruida. Es el control: la tarea
+    sigue siendo memorizable y deja de ser generalizable.
+    """
     a, b = torch.meshgrid(torch.arange(p), torch.arange(p), indexing="ij")
     x = torch.stack([a.reshape(-1), b.reshape(-1)], dim=1)
     y = (x[:, 0] + x[:, 1]) % p
+
+    if shuffle_labels:
+        gl = torch.Generator().manual_seed(seed + 12345)
+        y = y[torch.randperm(y.shape[0], generator=gl)]
 
     g = torch.Generator().manual_seed(seed)
     perm = torch.randperm(x.shape[0], generator=g)
@@ -75,6 +85,12 @@ def main():
     ap.add_argument("--seed", type=int, default=SEED)
     ap.add_argument("--outdir", default="runs/base")
     ap.add_argument(
+        "--shuffle-labels",
+        action="store_true",
+        help="control: permuta las etiquetas para destruir la estructura, "
+        "dejando una tarea memorizable pero no generalizable",
+    )
+    ap.add_argument(
         "--snap-every",
         type=int,
         default=SNAP_EVERY,
@@ -89,7 +105,11 @@ def main():
     torch.manual_seed(args.seed)
     torch.set_default_dtype(torch.float32)
 
-    x_tr, y_tr, x_te, y_te = make_data(train_frac=args.train_frac, seed=args.seed)
+    x_tr, y_tr, x_te, y_te = make_data(
+        train_frac=args.train_frac, seed=args.seed, shuffle_labels=args.shuffle_labels
+    )
+    if args.shuffle_labels:
+        print("CONTROL: etiquetas permutadas")
     print(f"train: {len(x_tr)} ejemplos | test: {len(x_te)} ejemplos")
 
     model = MLP()
@@ -148,6 +168,7 @@ def main():
                     "weight_decay": args.weight_decay,
                     "steps": args.steps,
                     "seed": args.seed,
+                    "shuffle_labels": args.shuffle_labels,
                     "optimizer": "AdamW",
                     "batch": "full",
                 },
