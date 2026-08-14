@@ -1,0 +1,503 @@
+{
+  "n_snapshots": 81,
+  "snapshot_stride": 100,
+  "dominant_freqs_final": [
+    4,
+    12,
+    14,
+    33,
+    36,
+    39
+  ],
+  "midpoint_test_acc": 3300,
+  "midpoint_participation_ratio": 3600,
+  "midpoint_top_power": 3900,
+  "series": [
+    {
+      "step": 0,
+      "participation_ratio": 47.65774917602539,
+      "top_power_share": 0.12825988233089447,
+      "test_acc": 0.012575274333357811
+    },
+    {
+      "step": 100,
+      "participation_ratio": 47.68621826171875,
+      "top_power_share": 0.1294761598110199,
+      "test_acc": 0.0
+    },
+    {
+      "step": 200,
+      "participation_ratio": 47.68717575073242,
+      "top_power_share": 0.13111189007759094,
+      "test_acc": 0.0
+    },
+    {
+      "step": 300,
+      "participation_ratio": 47.67092514038086,
+      "top_power_share": 0.13247618079185486,
+      "test_acc": 0.0
+    },
+    {
+      "step": 400,
+      "participation_ratio": 47.642459869384766,
+      "top_power_share": 0.1341983675956726,
+      "test_acc": 0.0
+    },
+    {
+      "step": 500,
+      "participation_ratio": 47.59970474243164,
+      "top_power_share": 0.13648492097854614,
+      "test_acc": 0.0
+    },
+    {
+      "step": 600,
+      "participation_ratio": 47.535343170166016,
+      "top_power_share": 0.13939166069030762,
+      "test_acc": 0.0
+    },
+    {
+      "step": 700,
+      "participation_ratio": 47.44174575805664,
+      "top_power_share": 0.14280813932418823,
+      "test_acc": 0.00017711654072627425
+    },
+    {
+      "step": 800,
+      "participation_ratio": 47.31434631347656,
+      "top_power_share": 0.1466098427772522,
+      "test_acc": 0.00017711654072627425
+    },
+    {
+      "step": 900,
+      "participation_ratio": 47.14665985107422,
+      "top_power_share": 0.15068121254444122,
+      "test_acc": 0.00017711654072627425
+    },
+    {
+      "step": 1000,
+      "participation_ratio": 46.933441162109375,
+      "top_power_share": 0.15497806668281555,
+      "test_acc": 0.0005313496221788228
+    },
+    {
+      "step": 1100,
+      "participation_ratio": 46.66822052001953,
+      "top_power_share": 0.1596112698316574,
+      "test_acc": 0.0010626992443576455
+    },
+    {
+      "step": 1200,
+      "participation_ratio": 46.348670959472656,
+      "top_power_share": 0.16434359550476074,
+      "test_acc": 0.001416932325810194
+    },
+    {
+      "step": 1300,
+      "participation_ratio": 45.987056732177734,
+      "top_power_share": 0.1692543625831604,
+      "test_acc": 0.00336521421559155
+    },
+    {
+      "step": 1400,
+      "participation_ratio": 45.5896110534668,
+      "top_power_share": 0.17427155375480652,
+      "test_acc": 0.006021962501108646
+    },
+    {
+      "step": 1500,
+      "participation_ratio": 45.16524887084961,
+      "top_power_share": 0.17951609194278717,
+      "test_acc": 0.009032943286001682
+    },
+    {
+      "step": 1600,
+      "participation_ratio": 44.69926834106445,
+      "top_power_share": 0.18522772192955017,
+      "test_acc": 0.014700672589242458
+    },
+    {
+      "step": 1700,
+      "participation_ratio": 44.197689056396484,
+      "top_power_share": 0.19127531349658966,
+      "test_acc": 0.019482819363474846
+    },
+    {
+      "step": 1800,
+      "participation_ratio": 43.67328643798828,
+      "top_power_share": 0.1974141001701355,
+      "test_acc": 0.027453064918518066
+    },
+    {
+      "step": 1900,
+      "participation_ratio": 43.11023712158203,
+      "top_power_share": 0.20380404591560364,
+      "test_acc": 0.03613177314400673
+    },
+    {
+      "step": 2000,
+      "participation_ratio": 42.525367736816406,
+      "top_power_share": 0.21035166084766388,
+      "test_acc": 0.049061283469200134
+    },
+    {
+      "step": 2100,
+      "participation_ratio": 41.91404342651367,
+      "top_power_share": 0.2169312685728073,
+      "test_acc": 0.06765852123498917
+    },
+    {
+      "step": 2200,
+      "participation_ratio": 41.26259231567383,
+      "top_power_share": 0.22381576895713806,
+      "test_acc": 0.0862557590007782
+    },
+    {
+      "step": 2300,
+      "participation_ratio": 40.57377624511719,
+      "top_power_share": 0.23093819618225098,
+      "test_acc": 0.11388593912124634
+    },
+    {
+      "step": 2400,
+      "participation_ratio": 39.86442947387695,
+      "top_power_share": 0.23826701939105988,
+      "test_acc": 0.14452709257602692
+    },
+    {
+      "step": 2500,
+      "participation_ratio": 39.126258850097656,
+      "top_power_share": 0.24578642845153809,
+      "test_acc": 0.17428268492221832
+    },
+    {
+      "step": 2600,
+      "participation_ratio": 38.383209228515625,
+      "top_power_share": 0.2531706392765045,
+      "test_acc": 0.2120085060596466
+    },
+    {
+      "step": 2700,
+      "participation_ratio": 37.617149353027344,
+      "top_power_share": 0.26064059138298035,
+      "test_acc": 0.25203683972358704
+    },
+    {
+      "step": 2800,
+      "participation_ratio": 36.82737350463867,
+      "top_power_share": 0.26830580830574036,
+      "test_acc": 0.2984413802623749
+    },
+    {
+      "step": 2900,
+      "participation_ratio": 36.023441314697266,
+      "top_power_share": 0.27621790766716003,
+      "test_acc": 0.33953240513801575
+    },
+    {
+      "step": 3000,
+      "participation_ratio": 35.21406555175781,
+      "top_power_share": 0.28418028354644775,
+      "test_acc": 0.38416579365730286
+    },
+    {
+      "step": 3100,
+      "participation_ratio": 34.40290832519531,
+      "top_power_share": 0.2922447919845581,
+      "test_acc": 0.42755934596061707
+    },
+    {
+      "step": 3200,
+      "participation_ratio": 33.60801696777344,
+      "top_power_share": 0.3002534508705139,
+      "test_acc": 0.4734325110912323
+    },
+    {
+      "step": 3300,
+      "participation_ratio": 32.828407287597656,
+      "top_power_share": 0.3083241879940033,
+      "test_acc": 0.5196599364280701
+    },
+    {
+      "step": 3400,
+      "participation_ratio": 32.061519622802734,
+      "top_power_share": 0.3164956867694855,
+      "test_acc": 0.559865415096283
+    },
+    {
+      "step": 3500,
+      "participation_ratio": 31.314922332763672,
+      "top_power_share": 0.3246907591819763,
+      "test_acc": 0.6006022095680237
+    },
+    {
+      "step": 3600,
+      "participation_ratio": 30.59147834777832,
+      "top_power_share": 0.3328803777694702,
+      "test_acc": 0.641870379447937
+    },
+    {
+      "step": 3700,
+      "participation_ratio": 29.888748168945312,
+      "top_power_share": 0.34102100133895874,
+      "test_acc": 0.678002119064331
+    },
+    {
+      "step": 3800,
+      "participation_ratio": 29.204914093017578,
+      "top_power_share": 0.34909600019454956,
+      "test_acc": 0.7136025428771973
+    },
+    {
+      "step": 3900,
+      "participation_ratio": 28.54013442993164,
+      "top_power_share": 0.35712099075317383,
+      "test_acc": 0.748140275478363
+    },
+    {
+      "step": 4000,
+      "participation_ratio": 27.894495010375977,
+      "top_power_share": 0.36506325006484985,
+      "test_acc": 0.7809068560600281
+    },
+    {
+      "step": 4100,
+      "participation_ratio": 27.274534225463867,
+      "top_power_share": 0.37284624576568604,
+      "test_acc": 0.8076514601707458
+    },
+    {
+      "step": 4200,
+      "participation_ratio": 26.669370651245117,
+      "top_power_share": 0.38053470849990845,
+      "test_acc": 0.8382925987243652
+    },
+    {
+      "step": 4300,
+      "participation_ratio": 26.07857322692871,
+      "top_power_share": 0.3881605863571167,
+      "test_acc": 0.8636202812194824
+    },
+    {
+      "step": 4400,
+      "participation_ratio": 25.502012252807617,
+      "top_power_share": 0.39566242694854736,
+      "test_acc": 0.8829259872436523
+    },
+    {
+      "step": 4500,
+      "participation_ratio": 24.936336517333984,
+      "top_power_share": 0.4030941426753998,
+      "test_acc": 0.9020545482635498
+    },
+    {
+      "step": 4600,
+      "participation_ratio": 24.387283325195312,
+      "top_power_share": 0.4104037284851074,
+      "test_acc": 0.9187034964561462
+    },
+    {
+      "step": 4700,
+      "participation_ratio": 23.852588653564453,
+      "top_power_share": 0.417634516954422,
+      "test_acc": 0.9316329956054688
+    },
+    {
+      "step": 4800,
+      "participation_ratio": 23.334388732910156,
+      "top_power_share": 0.42480453848838806,
+      "test_acc": 0.9424371123313904
+    },
+    {
+      "step": 4900,
+      "participation_ratio": 22.832246780395508,
+      "top_power_share": 0.43190157413482666,
+      "test_acc": 0.9525327682495117
+    },
+    {
+      "step": 5000,
+      "participation_ratio": 22.348133087158203,
+      "top_power_share": 0.43887561559677124,
+      "test_acc": 0.963513970375061
+    },
+    {
+      "step": 5100,
+      "participation_ratio": 21.88554573059082,
+      "top_power_share": 0.4456300139427185,
+      "test_acc": 0.9700673222541809
+    },
+    {
+      "step": 5200,
+      "participation_ratio": 21.44350814819336,
+      "top_power_share": 0.45221057534217834,
+      "test_acc": 0.9759121537208557
+    },
+    {
+      "step": 5300,
+      "participation_ratio": 21.023046493530273,
+      "top_power_share": 0.45860952138900757,
+      "test_acc": 0.9799858331680298
+    },
+    {
+      "step": 5400,
+      "participation_ratio": 20.62230682373047,
+      "top_power_share": 0.4648240804672241,
+      "test_acc": 0.984413743019104
+    },
+    {
+      "step": 5500,
+      "participation_ratio": 20.240232467651367,
+      "top_power_share": 0.47088009119033813,
+      "test_acc": 0.9863620400428772
+    },
+    {
+      "step": 5600,
+      "participation_ratio": 19.87761878967285,
+      "top_power_share": 0.47673463821411133,
+      "test_acc": 0.9883103370666504
+    },
+    {
+      "step": 5700,
+      "participation_ratio": 19.531496047973633,
+      "top_power_share": 0.4824194312095642,
+      "test_acc": 0.9907899498939514
+    },
+    {
+      "step": 5800,
+      "participation_ratio": 19.203418731689453,
+      "top_power_share": 0.48793578147888184,
+      "test_acc": 0.9923840165138245
+    },
+    {
+      "step": 5900,
+      "participation_ratio": 18.891464233398438,
+      "top_power_share": 0.493302583694458,
+      "test_acc": 0.9941551685333252
+    },
+    {
+      "step": 6000,
+      "participation_ratio": 18.596851348876953,
+      "top_power_share": 0.4984738528728485,
+      "test_acc": 0.9961034655570984
+    },
+    {
+      "step": 6100,
+      "participation_ratio": 18.31636619567871,
+      "top_power_share": 0.5034788846969604,
+      "test_acc": 0.9969890117645264
+    },
+    {
+      "step": 6200,
+      "participation_ratio": 18.051349639892578,
+      "top_power_share": 0.5082846283912659,
+      "test_acc": 0.9969890117645264
+    },
+    {
+      "step": 6300,
+      "participation_ratio": 17.80287742614746,
+      "top_power_share": 0.512856662273407,
+      "test_acc": 0.9971661567687988
+    },
+    {
+      "step": 6400,
+      "participation_ratio": 17.565876007080078,
+      "top_power_share": 0.5172699689865112,
+      "test_acc": 0.9978746175765991
+    },
+    {
+      "step": 6500,
+      "participation_ratio": 17.33948516845703,
+      "top_power_share": 0.5215395092964172,
+      "test_acc": 0.9982288479804993
+    },
+    {
+      "step": 6600,
+      "participation_ratio": 17.12483787536621,
+      "top_power_share": 0.5256186127662659,
+      "test_acc": 0.9987601637840271
+    },
+    {
+      "step": 6700,
+      "participation_ratio": 16.919021606445312,
+      "top_power_share": 0.5295910835266113,
+      "test_acc": 0.9989373087882996
+    },
+    {
+      "step": 6800,
+      "participation_ratio": 16.722278594970703,
+      "top_power_share": 0.533425509929657,
+      "test_acc": 0.9991143941879272
+    },
+    {
+      "step": 6900,
+      "participation_ratio": 16.53242301940918,
+      "top_power_share": 0.5371680855751038,
+      "test_acc": 0.9991143941879272
+    },
+    {
+      "step": 7000,
+      "participation_ratio": 16.349754333496094,
+      "top_power_share": 0.5408116579055786,
+      "test_acc": 0.9996457695960999
+    },
+    {
+      "step": 7100,
+      "participation_ratio": 16.174020767211914,
+      "top_power_share": 0.5443564653396606,
+      "test_acc": 0.9996457695960999
+    },
+    {
+      "step": 7200,
+      "participation_ratio": 16.004384994506836,
+      "top_power_share": 0.5478101968765259,
+      "test_acc": 0.9998228549957275
+    },
+    {
+      "step": 7300,
+      "participation_ratio": 15.839920043945312,
+      "top_power_share": 0.5511912703514099,
+      "test_acc": 0.9998228549957275
+    },
+    {
+      "step": 7400,
+      "participation_ratio": 15.678910255432129,
+      "top_power_share": 0.5545456409454346,
+      "test_acc": 1.0
+    },
+    {
+      "step": 7500,
+      "participation_ratio": 15.52160358428955,
+      "top_power_share": 0.5578631162643433,
+      "test_acc": 1.0
+    },
+    {
+      "step": 7600,
+      "participation_ratio": 15.367586135864258,
+      "top_power_share": 0.561118483543396,
+      "test_acc": 1.0
+    },
+    {
+      "step": 7700,
+      "participation_ratio": 15.21713924407959,
+      "top_power_share": 0.5642993450164795,
+      "test_acc": 1.0
+    },
+    {
+      "step": 7800,
+      "participation_ratio": 15.069586753845215,
+      "top_power_share": 0.5674009323120117,
+      "test_acc": 1.0
+    },
+    {
+      "step": 7900,
+      "participation_ratio": 14.923258781433105,
+      "top_power_share": 0.5704655647277832,
+      "test_acc": 1.0
+    },
+    {
+      "step": 8000,
+      "participation_ratio": 14.778660774230957,
+      "top_power_share": 0.5734639763832092,
+      "test_acc": 1.0
+    }
+  ]
+}

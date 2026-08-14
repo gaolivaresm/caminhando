@@ -74,6 +74,13 @@ def main():
     ap.add_argument("--lr", type=float, default=LR)
     ap.add_argument("--seed", type=int, default=SEED)
     ap.add_argument("--outdir", default="runs/base")
+    ap.add_argument(
+        "--snap-every",
+        type=int,
+        default=SNAP_EVERY,
+        help="cada cuantos pasos guardar embeddings; con full batch y semilla fija "
+        "la trayectoria es identica, asi que bajarlo solo densifica el muestreo",
+    )
     args = ap.parse_args()
 
     os.makedirs(args.outdir, exist_ok=True)
@@ -91,7 +98,7 @@ def main():
 
     history = []
     for step in range(args.steps + 1):
-        if step % SNAP_EVERY == 0:
+        if step % args.snap_every == 0:
             np.save(
                 os.path.join(args.outdir, "embeddings", f"emb_a_{step:06d}.npy"),
                 model.emb_a.weight.detach().numpy(),
