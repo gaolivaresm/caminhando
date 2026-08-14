@@ -11,8 +11,12 @@ Dos medidas de concentracion, por si una enganara:
   - potencia en las frecuencias que terminan dominando: cuanta de la potencia
     total ya vive, en cada paso, en las k frecuencias top del estado final.
 
-Para comparar tiempos usa el paso donde cada curva cruza la mitad de su propio
-recorrido, que no depende de la escala de cada una.
+Reporta tambien el paso donde cada curva cruza la mitad de su propio recorrido,
+pero OJO: esa comparacion no sirve para establecer precedencia. El PR no
+satura, asi que su "recorrido total" depende de donde se corto el
+entrenamiento; corriendo a 100k su punto medio se correria aun mas tarde. Es
+una descripcion de forma, no una medida de quien se movio primero. Para eso
+esta precedence.py, que pasa ambas series a sigmas contra un nulo explicito.
 """
 
 import argparse
