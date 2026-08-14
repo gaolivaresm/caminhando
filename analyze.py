@@ -139,9 +139,13 @@ def main():
         after = min([s for s in snaps if s >= grok_step + 2000] or [snaps[-1]])
     else:
         before, after = snaps[len(snaps) // 4], snaps[-1]
-    print(f"snapshots comparados: antes={before}, despues={after}")
+    final_snap = snaps[-1]
+    print(f"snapshots comparados: antes={before}, despues={after}, final={final_snap}")
 
-    report = plot_fft(emb_dir, [before, after], os.path.join(args.rundir, "fft.png"))
+    to_plot = [before, after]
+    if final_snap not in to_plot:
+        to_plot.append(final_snap)
+    report = plot_fft(emb_dir, to_plot, os.path.join(args.rundir, "fft.png"))
     summary = {
         "memorization_step": memo_step,
         "grokking_step": grok_step,

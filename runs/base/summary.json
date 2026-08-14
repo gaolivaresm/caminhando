@@ -1,0 +1,43 @@
+{
+  "memorization_step": 200,
+  "grokking_step": 4500,
+  "final_train_acc": 1.0,
+  "final_test_acc": 1.0,
+  "fft_before_step": 2000,
+  "fft_after_step": 7000,
+  "fft": {
+    "2000": {
+      "participation_ratio": 42.525367736816406,
+      "top5_freqs": [
+        36,
+        4,
+        12,
+        39,
+        22
+      ],
+      "top5_share_of_power": 0.18363995850086212
+    },
+    "7000": {
+      "participation_ratio": 16.349754333496094,
+      "top5_freqs": [
+        4,
+        14,
+        36,
+        33,
+        39
+      ],
+      "top5_share_of_power": 0.47279366850852966
+    },
+    "30000": {
+      "participation_ratio": 7.019969463348389,
+      "top5_freqs": [
+        27,
+        36,
+        33,
+        4,
+        14
+      ],
+      "top5_share_of_power": 0.758210301399231
+    }
+  }
+}
