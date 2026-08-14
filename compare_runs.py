@@ -12,6 +12,7 @@ Sirve para dos preguntas distintas:
 
 import argparse
 import glob
+import itertools
 import json
 import os
 
@@ -111,11 +112,26 @@ def main():
             f"{r['top_share']:8.3f}  {r['top_freqs']}"
         )
 
-    prs = np.array([r["final_pr"] for r in runs])
+    # el control no es parte del ensemble: mezclarlo inflaria la dispersion y
+    # taparia justo lo que se quiere medir
+    real = [r for r in runs if not r["config"].get("shuffle_labels")]
+    ctrl = [r for r in runs if r["config"].get("shuffle_labels")]
+    prs = np.array([r["final_pr"] for r in real])
     if len(prs) > 1:
-        print(f"\nPR final: media {prs.mean():.2f}, sd {prs.std(ddof=1):.2f}, "
-              f"cv {prs.std(ddof=1) / prs.mean() * 100:.1f}%, "
+        sd = prs.std(ddof=1)
+        print(f"\nPR final sobre {len(prs)} semillas independientes: media {prs.mean():.2f}, "
+              f"sd {sd:.2f}, cv {sd / prs.mean() * 100:.1f}%, "
               f"rango [{prs.min():.2f}, {prs.max():.2f}]")
+        for c in ctrl:
+            print(f"control '{c['name']}': PR {c['final_pr']:.2f}  "
+                  f"({(c['final_pr'] - prs.mean()) / sd:.1f} sd del ensemble)")
+
+        # las frecuencias elegidas deberian ser arbitrarias: la base no esta fijada
+        sets = [set(r["top_freqs"]) for r in real]
+        ov = [len(a & b) for a, b in itertools.combinations(sets, 2)]
+        n_freq = 97 // 2
+        print(f"solapamiento de top-{args.top_k} entre pares: media {np.mean(ov):.2f} "
+              f"de {args.top_k} (azar esperado {args.top_k ** 2 / n_freq:.2f})")
 
     summary = [
         {

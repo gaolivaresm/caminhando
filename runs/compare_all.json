@@ -1,0 +1,114 @@
+[
+  {
+    "name": "base",
+    "seed": 0,
+    "shuffle_labels": null,
+    "final_pr": 7.019969463348389,
+    "final_test_acc": 1.0,
+    "top_freqs": [
+      4,
+      12,
+      14,
+      27,
+      33,
+      36
+    ],
+    "top_share": 0.8764664530754089
+  },
+  {
+    "name": "seed1",
+    "seed": 1,
+    "shuffle_labels": false,
+    "final_pr": 7.844174385070801,
+    "final_test_acc": 1.0,
+    "top_freqs": [
+      8,
+      30,
+      34,
+      36,
+      46,
+      48
+    ],
+    "top_share": 0.8140410780906677
+  },
+  {
+    "name": "seed2",
+    "seed": 2,
+    "shuffle_labels": false,
+    "final_pr": 6.3663716316223145,
+    "final_test_acc": 1.0,
+    "top_freqs": [
+      4,
+      24,
+      33,
+      39,
+      41,
+      46
+    ],
+    "top_share": 0.9567447304725647
+  },
+  {
+    "name": "seed3",
+    "seed": 3,
+    "shuffle_labels": false,
+    "final_pr": 7.893381118774414,
+    "final_test_acc": 1.0,
+    "top_freqs": [
+      5,
+      13,
+      19,
+      27,
+      28,
+      30
+    ],
+    "top_share": 0.8062067031860352
+  },
+  {
+    "name": "seed4",
+    "seed": 4,
+    "shuffle_labels": false,
+    "final_pr": 5.181598663330078,
+    "final_test_acc": 1.0,
+    "top_freqs": [
+      1,
+      12,
+      17,
+      27,
+      32,
+      47
+    ],
+    "top_share": 0.9817665219306946
+  },
+  {
+    "name": "seed5",
+    "seed": 5,
+    "shuffle_labels": false,
+    "final_pr": 7.953281402587891,
+    "final_test_acc": 1.0,
+    "top_freqs": [
+      4,
+      6,
+      8,
+      13,
+      32,
+      35
+    ],
+    "top_share": 0.7899448871612549
+  },
+  {
+    "name": "shuffled",
+    "seed": 0,
+    "shuffle_labels": true,
+    "final_pr": 47.671119689941406,
+    "final_test_acc": 0.00743889482691884,
+    "top_freqs": [
+      10,
+      11,
+      15,
+      16,
+      21,
+      43
+    ],
+    "top_share": 0.1424005925655365
+  }
+]
