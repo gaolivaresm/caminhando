@@ -1,0 +1,477 @@
+[
+  {
+    "name": "base",
+    "shuffle_labels": false,
+    "seed": 0,
+    "step": 30000,
+    "participation_ratio": 7.019969463348389,
+    "n_pairs_expected": 7,
+    "pair_ratios": [
+      0.9979743957519531,
+      0.9851201176643372,
+      0.9991465210914612,
+      0.9953043460845947,
+      0.9939858913421631,
+      0.9849902391433716,
+      0.9901595711708069
+    ],
+    "eigenvalue_tail_ratio": 0.012448919005692005,
+    "circles": [
+      {
+        "freq": 27,
+        "order_parameter": 0.9999344497792629,
+        "orientation": -1,
+        "radius_cv": 0.01629533003068734,
+        "variance_share": 0.1831604650287503
+      },
+      {
+        "freq": 36,
+        "order_parameter": 0.9999439153423564,
+        "orientation": -1,
+        "radius_cv": 0.013917463447446014,
+        "variance_share": 0.1578973674080818
+      },
+      {
+        "freq": 33,
+        "order_parameter": 0.9996992267665004,
+        "orientation": -1,
+        "radius_cv": 0.02337756811991211,
+        "variance_share": 0.1492049452080136
+      },
+      {
+        "freq": 4,
+        "order_parameter": 0.9999082775905732,
+        "orientation": -1,
+        "radius_cv": 0.011664040866782778,
+        "variance_share": 0.131914817302097
+      },
+      {
+        "freq": 14,
+        "order_parameter": 0.9998819968989673,
+        "orientation": -1,
+        "radius_cv": 0.014050296094596853,
+        "variance_share": 0.13094242824932598
+      },
+      {
+        "freq": 12,
+        "order_parameter": 0.9997123634820552,
+        "orientation": -1,
+        "radius_cv": 0.025776145689755916,
+        "variance_share": 0.12086468613151811
+      }
+    ]
+  },
+  {
+    "name": "seed1",
+    "shuffle_labels": false,
+    "seed": 1,
+    "step": 30000,
+    "participation_ratio": 7.844174385070801,
+    "n_pairs_expected": 8,
+    "pair_ratios": [
+      0.9893705248832703,
+      0.994489312171936,
+      0.9917711019515991,
+      0.9796966314315796,
+      0.996052086353302,
+      0.9935665130615234,
+      0.9861212372779846,
+      0.9848272204399109
+    ],
+    "eigenvalue_tail_ratio": 0.008191187866032124,
+    "circles": [
+      {
+        "freq": 8,
+        "order_parameter": 0.9999353593111264,
+        "orientation": -1,
+        "radius_cv": 0.02939843994509848,
+        "variance_share": 0.15916602264506222
+      },
+      {
+        "freq": 36,
+        "order_parameter": 0.9998922533285434,
+        "orientation": -1,
+        "radius_cv": 0.02685190130260862,
+        "variance_share": 0.14503604501817283
+      },
+      {
+        "freq": 34,
+        "order_parameter": 0.9998490057702131,
+        "orientation": -1,
+        "radius_cv": 0.02675885642899806,
+        "variance_share": 0.1449999263002882
+      },
+      {
+        "freq": 48,
+        "order_parameter": 0.9995220149289146,
+        "orientation": -1,
+        "radius_cv": 0.02807900093131566,
+        "variance_share": 0.12674707922679496
+      },
+      {
+        "freq": 30,
+        "order_parameter": 0.9998468336432401,
+        "orientation": -1,
+        "radius_cv": 0.03280573670212141,
+        "variance_share": 0.12587794747939407
+      },
+      {
+        "freq": 46,
+        "order_parameter": 0.9997628090050832,
+        "orientation": -1,
+        "radius_cv": 0.01717848969397802,
+        "variance_share": 0.10756139994455179
+      }
+    ]
+  },
+  {
+    "name": "seed2",
+    "shuffle_labels": false,
+    "seed": 2,
+    "step": 30000,
+    "participation_ratio": 6.3663716316223145,
+    "n_pairs_expected": 6,
+    "pair_ratios": [
+      0.9955344796180725,
+      0.9945998191833496,
+      0.9983249306678772,
+      0.9886502027511597,
+      0.9959753155708313,
+      0.9869137406349182
+    ],
+    "eigenvalue_tail_ratio": 0.15937702357769012,
+    "circles": [
+      {
+        "freq": 24,
+        "order_parameter": 0.999904783222839,
+        "orientation": -1,
+        "radius_cv": 0.016071319435142745,
+        "variance_share": 0.18702675525213452
+      },
+      {
+        "freq": 4,
+        "order_parameter": 0.9998922724840666,
+        "orientation": -1,
+        "radius_cv": 0.02343744128233013,
+        "variance_share": 0.17591976452843863
+      },
+      {
+        "freq": 39,
+        "order_parameter": 0.9999224212057981,
+        "orientation": -1,
+        "radius_cv": 0.019317468070728185,
+        "variance_share": 0.17125431381890288
+      },
+      {
+        "freq": 33,
+        "order_parameter": 0.9997974109859767,
+        "orientation": -1,
+        "radius_cv": 0.017683690987286494,
+        "variance_share": 0.15400689947918994
+      },
+      {
+        "freq": 46,
+        "order_parameter": 0.9999484607899258,
+        "orientation": -1,
+        "radius_cv": 0.008735986945896213,
+        "variance_share": 0.1505067772687154
+      },
+      {
+        "freq": 41,
+        "order_parameter": 0.9997685435146781,
+        "orientation": -1,
+        "radius_cv": 0.017152305683763667,
+        "variance_share": 0.11393148071711537
+      }
+    ]
+  },
+  {
+    "name": "seed3",
+    "shuffle_labels": false,
+    "seed": 3,
+    "step": 30000,
+    "participation_ratio": 7.893381118774414,
+    "n_pairs_expected": 8,
+    "pair_ratios": [
+      0.9914385080337524,
+      0.989479124546051,
+      0.9967225790023804,
+      0.996523380279541,
+      0.9899769425392151,
+      0.9955994486808777,
+      0.982846200466156,
+      0.9751540422439575
+    ],
+    "eigenvalue_tail_ratio": 0.007585321553051472,
+    "circles": [
+      {
+        "freq": 5,
+        "order_parameter": 0.9999518555583,
+        "orientation": -1,
+        "radius_cv": 0.027210422714362185,
+        "variance_share": 0.14585160377651102
+      },
+      {
+        "freq": 19,
+        "order_parameter": 0.999854555163906,
+        "orientation": -1,
+        "radius_cv": 0.02678863979724644,
+        "variance_share": 0.14422343404174803
+      },
+      {
+        "freq": 28,
+        "order_parameter": 0.9999108888687608,
+        "orientation": -1,
+        "radius_cv": 0.01393128449476725,
+        "variance_share": 0.13805706242163795
+      },
+      {
+        "freq": 30,
+        "order_parameter": 0.9998989043772349,
+        "orientation": -1,
+        "radius_cv": 0.02017600691833702,
+        "variance_share": 0.13156296852678293
+      },
+      {
+        "freq": 27,
+        "order_parameter": 0.9998125620199747,
+        "orientation": -1,
+        "radius_cv": 0.02126550378209564,
+        "variance_share": 0.1273511137978551
+      },
+      {
+        "freq": 13,
+        "order_parameter": 0.9997737820670526,
+        "orientation": -1,
+        "radius_cv": 0.04643430214294949,
+        "variance_share": 0.1138766371569237
+      }
+    ]
+  },
+  {
+    "name": "seed4",
+    "shuffle_labels": false,
+    "seed": 4,
+    "step": 30000,
+    "participation_ratio": 5.181598663330078,
+    "n_pairs_expected": 5,
+    "pair_ratios": [
+      0.9934669733047485,
+      0.9983910322189331,
+      0.9957979321479797,
+      0.999204158782959,
+      0.9980523586273193
+    ],
+    "eigenvalue_tail_ratio": 0.010277977213263512,
+    "circles": [
+      {
+        "freq": 27,
+        "order_parameter": 0.9999475614083406,
+        "orientation": -1,
+        "radius_cv": 0.01897457108302469,
+        "variance_share": 0.21939049144833056
+      },
+      {
+        "freq": 17,
+        "order_parameter": 0.9999626457447341,
+        "orientation": -1,
+        "radius_cv": 0.014493398523480295,
+        "variance_share": 0.19327729470298932
+      },
+      {
+        "freq": 47,
+        "order_parameter": 0.9999756193210981,
+        "orientation": -1,
+        "radius_cv": 0.012163879702833032,
+        "variance_share": 0.19312745991660452
+      },
+      {
+        "freq": 1,
+        "order_parameter": 0.9999269302903357,
+        "orientation": -1,
+        "radius_cv": 0.021436100238335296,
+        "variance_share": 0.1859069915896483
+      },
+      {
+        "freq": 12,
+        "order_parameter": 0.9999437263656883,
+        "orientation": -1,
+        "radius_cv": 0.014726499950074572,
+        "variance_share": 0.18640597344260787
+      },
+      {
+        "freq": 32,
+        "order_parameter": 0.9182812737531463,
+        "orientation": -1,
+        "radius_cv": 0.34108797252200956,
+        "variance_share": 0.0022540917291935803
+      }
+    ]
+  },
+  {
+    "name": "seed5",
+    "shuffle_labels": false,
+    "seed": 5,
+    "step": 30000,
+    "participation_ratio": 7.953281402587891,
+    "n_pairs_expected": 8,
+    "pair_ratios": [
+      0.9898648858070374,
+      0.9949433207511902,
+      0.9901529550552368,
+      0.9893914461135864,
+      0.988417387008667,
+      0.9903160333633423,
+      0.9953789114952087,
+      0.9890543222427368
+    ],
+    "eigenvalue_tail_ratio": 0.009278391487896442,
+    "circles": [
+      {
+        "freq": 8,
+        "order_parameter": 0.9999074507768467,
+        "orientation": -1,
+        "radius_cv": 0.02182844918112455,
+        "variance_share": 0.1631732166010249
+      },
+      {
+        "freq": 32,
+        "order_parameter": 0.9998231187576438,
+        "orientation": -1,
+        "radius_cv": 0.025054623913468594,
+        "variance_share": 0.14560412936740202
+      },
+      {
+        "freq": 13,
+        "order_parameter": 0.9998683640375654,
+        "orientation": -1,
+        "radius_cv": 0.01985099055174428,
+        "variance_share": 0.12912345848339352
+      },
+      {
+        "freq": 35,
+        "order_parameter": 0.9998268924103489,
+        "orientation": -1,
+        "radius_cv": 0.012848589544454194,
+        "variance_share": 0.12923099035211796
+      },
+      {
+        "freq": 6,
+        "order_parameter": 0.9995168782607053,
+        "orientation": -1,
+        "radius_cv": 0.04917623981798357,
+        "variance_share": 0.11333725379446186
+      },
+      {
+        "freq": 4,
+        "order_parameter": 0.9994751328590654,
+        "orientation": -1,
+        "radius_cv": 0.025161979181004653,
+        "variance_share": 0.10569256108057545
+      }
+    ]
+  },
+  {
+    "name": "shuffled",
+    "shuffle_labels": true,
+    "seed": 0,
+    "step": 30000,
+    "participation_ratio": 47.671119689941406,
+    "n_pairs_expected": 48,
+    "pair_ratios": [
+      0.9605007171630859,
+      0.975494384765625,
+      0.9709797501564026,
+      0.9821904897689819,
+      0.9879905581474304,
+      0.9856832027435303,
+      0.9902688264846802,
+      0.9942119717597961,
+      0.9679607152938843,
+      0.9663576483726501,
+      0.9768714904785156,
+      0.982666015625,
+      0.9955171346664429,
+      0.9866636991500854,
+      0.9546976089477539,
+      0.9891673922538757,
+      0.9798933863639832,
+      0.9794325232505798,
+      0.9696367383003235,
+      0.9556660056114197,
+      0.9730164408683777,
+      0.976944625377655,
+      0.967239499092102,
+      0.9646657109260559,
+      0.9615609645843506,
+      0.9517993330955505,
+      0.9779279232025146,
+      0.9781532287597656,
+      0.9667956829071045,
+      0.9592813849449158,
+      0.9571672081947327,
+      0.9339455366134644,
+      0.9038679599761963,
+      0.9676249027252197,
+      0.9648756980895996,
+      0.946995198726654,
+      0.9400065541267395,
+      0.9516904354095459,
+      0.8772433400154114,
+      0.9262586832046509,
+      0.7741814851760864,
+      0.9110922813415527,
+      0.7681070566177368,
+      0.8865591287612915,
+      0.8984648585319519,
+      0.8012271523475647,
+      0.6864358186721802,
+      0.9064756631851196
+    ],
+    "eigenvalue_tail_ratio": 4.914898512047711e-15,
+    "circles": [
+      {
+        "freq": 11,
+        "order_parameter": 0.8427280179253682,
+        "orientation": -1,
+        "radius_cv": 0.403500483417125,
+        "variance_share": 0.03504642797468355
+      },
+      {
+        "freq": 16,
+        "order_parameter": 0.8377992097573563,
+        "orientation": -1,
+        "radius_cv": 0.4005453616114018,
+        "variance_share": 0.03722764021437017
+      },
+      {
+        "freq": 15,
+        "order_parameter": 0.8260986116871417,
+        "orientation": -1,
+        "radius_cv": 0.38665113814385776,
+        "variance_share": 0.0349826623490277
+      },
+      {
+        "freq": 43,
+        "order_parameter": 0.8387115766116588,
+        "orientation": -1,
+        "radius_cv": 0.42344055811116005,
+        "variance_share": 0.035364368644128806
+      },
+      {
+        "freq": 21,
+        "order_parameter": 0.8363950600332439,
+        "orientation": -1,
+        "radius_cv": 0.4465368636826456,
+        "variance_share": 0.03428421148893824
+      },
+      {
+        "freq": 10,
+        "order_parameter": 0.8376280556000885,
+        "orientation": -1,
+        "radius_cv": 0.3860058382967692,
+        "variance_share": 0.03411148929857566
+      }
+    ]
+  }
+]
